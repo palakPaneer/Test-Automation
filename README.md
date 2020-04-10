@@ -2,6 +2,10 @@
 
 2 APIs will be tested with Rest Assured library in this project, the code could will be the foundation for testing all of the http://deckofcardsapi.com/ APIs.
 
+## API test automation for deckOfCards API
+
+Run unit tests by `mvn test`
+
 ## Create a new deck of cards
 
 Code is in src/test/java/ApiTests/NewDeckTests.java
@@ -25,6 +29,3 @@ Code is in src/test/java/ApiTests/DrawCardTests.java
 
 In this part I checked 2 scenarios: there are enough cards to draw from pile; not enough cards to draw.
 
-## API test automation for deckOfCards API
-
-Run unit tests by `mvn package`
